@@ -1,5 +1,4 @@
 function TodoItem({ task, completed, onComplete, onDelete }) {
-    // Use conditional rendering to display different UI based on the task's completion status
     return (
       <li className="todo-item" style={{color:"#00b386"}}>
         {completed ? (
